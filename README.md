@@ -5,7 +5,7 @@ The goal is to build a log-linear classifier, a multi-layer perceptron (MLP), an
 
 ---
 
-## 📌 Project Structure
+## Project Structure
 
 - **grad_check.py** – Implements gradient checking to verify correctness of gradient calculations.
 - **loglinear.py** – Implementation of a log-linear classifier (softmax classifier).
@@ -19,7 +19,7 @@ The goal is to build a log-linear classifier, a multi-layer perceptron (MLP), an
 
 ---
 
-## 🚀 Tasks Implemented
+## Tasks Implemented
 
 ### **1. Gradient Checking**
 Implemented numerical gradient checking to validate analytical gradients.  
