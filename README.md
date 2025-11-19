@@ -25,7 +25,7 @@ Implemented numerical gradient checking to validate analytical gradients.
 Used to verify the correctness of all classifiers (log-linear and MLPs).
 
 ### **2. Log-Linear Classifier**
-- Implements:
+Implements:
 - Trained using SGD.  
 - Evaluated on a language identification task using letter bigram features.
 - Achieves >80% accuracy on the dev set (expected baseline).
@@ -35,7 +35,7 @@ Used to verify the correctness of all classifiers (log-linear and MLPs).
 - Saves results in `test.pred`, one language ID per line.
 
 ### **4. Single Hidden Layer MLP**
-- Implements:  
+Implements:  
 - Trained with SGD.
 - Evaluated on:
   - Language identification task
