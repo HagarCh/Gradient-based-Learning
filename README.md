@@ -48,16 +48,13 @@ Implements:
 
 ---
 
-## 📈 Experiments
+## Experiments
 
 The assignment includes several experiments:
 
 - Compare log-linear vs. MLP performance on language identification.
 - Evaluate unigram vs. bigram features.
 - Train MLP on XOR and measure iterations to convergence.
-
-Results and explanations are in **answers.txt**.
-
 ---
 
 ## ▶️ How to Run
