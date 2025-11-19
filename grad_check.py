@@ -1,11 +1,5 @@
 import numpy as np
 
-STUDENTS = [
-    {"name": "Hagar Chen Cohen", "ID": "204121461"},
-    {"name": "Reut Meiri", "ID": "313191355"},
-]
-
-
 def gradient_check(f, x):
     """
     Gradient check for a function f
