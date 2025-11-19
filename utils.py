@@ -3,10 +3,6 @@
 import os
 from collections import Counter
 
-STUDENTS = [
-    {"name": "Hagar Chen Cohen", "ID": "204121461"},
-    {"name": "Reut Meiri", "ID": "313191355"},
-]
 
 def read_data(fname):
     data = []
