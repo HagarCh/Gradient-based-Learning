@@ -1,11 +1,6 @@
 import numpy as np
 np.random.seed(42)
 
-STUDENTS = [
-    {"name": "Hagar Chen Cohen", "ID": "204121461"},
-    {"name": "Reut Meiri", "ID": "313191355"},
-]
-
 def softmax(x):
     """
     Compute the softmax vector.
@@ -53,7 +48,6 @@ def loss_and_gradients(x, y, params):
     (of course, if we request a linear classifier (ie, params is of length 2),
     you should not have gW2 and gb2.)
     """
-    # YOU CODE HERE
     in_act = [x]  # List of layers inputs
     h = x
 
