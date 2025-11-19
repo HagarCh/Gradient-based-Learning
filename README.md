@@ -36,9 +36,6 @@ Used to verify the correctness of all classifiers (log-linear and MLPs).
 
 ### **4. Single Hidden Layer MLP**
 - Implements:  
-  \[
-  f(x) = \text{softmax}(U \cdot \tanh(Wx + b) + b')
-  \]
 - Trained with SGD.
 - Evaluated on:
   - Language identification task
