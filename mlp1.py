@@ -1,11 +1,6 @@
 import numpy as np
 np.random.seed(42)
 
-STUDENTS = [
-    {"name": "Hagar Chen Cohen", "ID": "204121461"},
-    {"name": "Reut Meiri", "ID": "313191355"},
-]
-
 def softmax(x):
     """
     Compute the softmax vector.
@@ -49,14 +44,12 @@ def loss_and_gradients(x, y, params):
     gU: matrix, gradients of U
     gb_tag: vector, gradients of b_tag
     """
-    # YOU CODE HERE
     W, b, U, b_tag = params
 
     #  Forward prop:
     probs = classifier_output(x, params)
     loss = -np.log(probs[y])
     #  Back prop:
-    # l = softmax(o), o = U*h+b_tag,  h = tanh(z), z = Wx+b
     h =  np.tanh(np.dot(W, x) + b)
     dl_do = probs.copy()
     dl_do[y] =dl_do[y] - 1 # dl/do = a - y
