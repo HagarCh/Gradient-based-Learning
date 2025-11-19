@@ -6,7 +6,6 @@ def softmax(x):
     x: a n-dim vector (numpy array)
     returns: an n-dim vector (numpy array) of softmax values
     """
-    # YOUR CODE HERE
     exps = np.exp(x - np.max(x))  # subtract max(x) for numerical stability
     x = exps / np.sum(exps)
     return x
