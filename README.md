@@ -14,7 +14,6 @@ The goal is to build a log-linear classifier, a multi-layer perceptron (MLP), an
 - **train_mlp1.py** – Training routine for the MLP (similar to train_loglin).
 - **mlpn.py** – Implementation of an arbitrary-depth MLP that supports multiple layers.
 - **xor_data.py** – Small dataset for evaluating XOR learning.
-- **answers.txt** – Written answers to the assignment questions.
 - **data/** – Train, dev, and blind test sets for the language identification task.
 
 ---
