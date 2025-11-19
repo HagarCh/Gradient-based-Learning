@@ -26,10 +26,7 @@ Implemented numerical gradient checking to validate analytical gradients.
 Used to verify the correctness of all classifiers (log-linear and MLPs).
 
 ### **2. Log-Linear Classifier**
-- Implements:  
-  \[
-  f(x) = \text{softmax}(Wx + b)
-  \]
+- Implements:
 - Trained using SGD.  
 - Evaluated on a language identification task using letter bigram features.
 - Achieves >80% accuracy on the dev set (expected baseline).
