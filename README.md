@@ -57,7 +57,7 @@ The assignment includes several experiments:
 - Train MLP on XOR and measure iterations to convergence.
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 python grad_check.py
