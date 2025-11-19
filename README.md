@@ -1,5 +1,4 @@
-# Gradient-based-Learning
-# Assignment 1 – Gradient-based Learning
+# Gradient-based Learning
 
 This project implements several classifiers and training routines as part of an assignment on gradient-based learning.  
 The goal is to build a log-linear classifier, a multi-layer perceptron (MLP), and an arbitrary-depth MLP, and to evaluate them on several tasks such as language identification and XOR.
